@@ -4,11 +4,7 @@ Last updated on Tuesday, October 21st, 2014.
 
 This repository is simply the Laravel framework with all the vendor files provided and the debug configuration set to true. This way, someone who is unfamiliar with Composer can skip that step in the setup process all together.
 
-To use, fork this repository (or download the ZIP and extract) into the root of your LAMP stack. Afterwards, give the server access to the `app/storage` folder. Once in the directory of the Laravel stack, the command for this for Unix machines is:
-
-```
-chmod -R o+w app/storage
-```
+To use, fork this repository (or download the ZIP and extract) into the root of your LAMP stack. Afterwards, give the server access to the `app/storage` folder. Once in the directory of the Laravel stack, the command for this for Unix machines is `chmod -R o+w app/storage`.
 
 Given that your LAMP stack is properly configured, this should set you on your way to developing with Laravel. Check by  browsing to the `public` directory off of your LAMP stack.
 
