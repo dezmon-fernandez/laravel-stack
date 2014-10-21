@@ -10,7 +10,7 @@ To use, fork this repository (or download the ZIP and extract) into the root of 
 chmod -R o+w app/storage
 ```
 
-Given that your LAMP stack is properly configured, this should set you on your way to developing with Laravel. Check by seeing browsing to the `public` directory off of your LAMP stack. 
+Given that your LAMP stack is properly configured, this should set you on your way to developing with Laravel. Check by  browsing to the `public` directory off of your LAMP stack.
 
 If not, check the PHP configuration of your environment using `phpinfo()` and verify that `mcyrpt` is enabled along with `mod_rewrite`. Any further help should be requested on Piazza.
 
